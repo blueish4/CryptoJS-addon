@@ -16,7 +16,7 @@ siteName.addEventListener('keyup', function onkeyup(event) {
   enterPressed(event);
 }, false);
 pword.addEventListener('keyup', function onkeyup(event) {
-  enterPressed(event);
+  enterPressed();
 }, false);
 // Listen for the "show" event being sent from the
 // main add-on code. It means that the panel's about
