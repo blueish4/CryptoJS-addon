@@ -27,8 +27,8 @@ text_entry.on("show", function() {
   text_entry.port.emit("show");
 });
 text_entry.port.on("text-entered", function (text) {
-  var site = text;
-  var pword = 
+  var site = text[1];
+  var pword = text[0];
   text_entry.hide();
   e(site,pword);
 });
